@@ -23,22 +23,22 @@ function Section_2() {
             id="Wecom-text"
             className=" text-[12px] 310:text-[14px] 370:text-auto"
           >
-            Joiner Full Stack Software Engineer
+            you visualize, we realize
           </div>
         </motion.div>
         <div className="  w-auto h-auto  animate-slideleftT2 mt-[24px] text-white  ">
           <span className=" text-[40px] 400:text-[50px]  800:text-[57px] font-bold align-top ">
-            Providing{" "}
+            GLOBAL{" "}
             <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              the best
+              IT
             </span>{" "}
           </span>
           <span className=" translate-y-[-20px]  animate-slideleftT2 text-[40px] 400:text-[50px]  800:text-[57px] font-bold   align-top ">
-            Project experience
+            SOLUTIONS
           </span>
         </div>
         <p className=" animate-slideleftT3 text-[16px] 400:text-[19px] text-slate-400 mb-[20px]  ">
-          All the best and most modern resources at your fingertips. Access
+          All the best and most modern services at your fingertips. Access
           online
           {/*--->a*/}
           <a className="Home_a ">Website</a>,{/*--->a*/}
