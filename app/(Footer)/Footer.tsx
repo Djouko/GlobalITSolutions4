@@ -120,21 +120,21 @@ function Footer() {
               </svg>
             </div>
             <div className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer ">
-              <span className=" text-[15px] mr-[6px]">Learing About Me</span>
+              <span className=" text-[15px] mr-[6px]">Learing About Us</span>
             </div>
             <div className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer ">
               <a
                 href="mailto:hyatmyat79@gmail.com"
                 className=" text-[15px] hover:underline "
               >
-                hyatmyat79@gmail.com
+                destructeurkratos@gmail.com
               </a>
             </div>
           </div>
         </div>
 
         <div className="mb-[20px] text-[15px] text-center  ">
-          &copy; Htet Myat 2023 Inc. All rights reserved.
+          &copy; GLOBAL IT SOLUTIONS 2023 Inc. All rights reserved.
         </div>
       </div>
     </div>
