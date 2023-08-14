@@ -7,8 +7,8 @@ import StarsCanvas from "./(StarMode)/Background_Stars";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Htet Myat",
-  description: "Htet Myat",
+  title: "GLOBAL IT SOLUTIONS",
+  description: "GLOBAL IT SOLUTIONS",
 };
 
 export default function RootLayout({
