@@ -30,11 +30,11 @@ function Section_2() {
           <span className=" text-[40px] 400:text-[50px]  800:text-[57px] font-bold align-top ">
             GLOBAL{" "}
             <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              IT SOLUTIONS
+              IT
             </span>{" "}
           </span>
           <span className=" translate-y-[-20px]  animate-slideleftT2 text-[40px] 400:text-[50px]  800:text-[57px] font-bold   align-top ">
-            We visualize, We realize
+            SOLUTIONS
           </span>
         </div>
         <p className=" animate-slideleftT3 text-[16px] 400:text-[19px] text-slate-400 mb-[20px]  ">
