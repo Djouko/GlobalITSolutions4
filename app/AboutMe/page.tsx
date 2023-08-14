@@ -17,7 +17,7 @@ function page() {
       <div className=" w-full 1250:w-[900px] h-auto m-auto mt-[25px] pb-[100px] ">
         <div className=" text-gray-400 text-[14px]">Sat Mar 12 2022</div>
         <div className="w-full h-auto font-bold text-[29px] my-[15px] text-slate-200  animate-slowfade ">
-          Hey ☘️, I&apos;m Htet Myat
+          Hey ☘️, I&apos;m GLOBAL IT SOLUTIONS
         </div>
         <div className=" text-gray-300    animate-slideright ">
           When I was Start age 19 I found Programming began when I first learned
