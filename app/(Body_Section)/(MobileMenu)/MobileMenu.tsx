@@ -48,7 +48,7 @@ function MobileMenu() {
       <div
         className={` ${
           course ? "" : " hidden"
-        } w-full h-auto rounded-[10px] bg-[#0c0728] relative  p-[10px]    mt-[20px]
+        } w-full h-auto rounded-[10px] bg-[#001a00] relative  p-[10px]    mt-[20px]
         flex   flex-col   items-center justify-center `}
       >
         <div className=" absolute top-[-13px] ">
