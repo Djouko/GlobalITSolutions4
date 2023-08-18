@@ -16,8 +16,8 @@ function MobileMenu() {
   return (
     <div
       id="scroolbar-hidden"
-      className={` group  flex flex-col items-center 860:hidden cursor-pointer animate-slideleft overflow-y-scroll  shadow-lg shadow-[#201E61]/50  fixed inset-x-0 bottom-0
-       z-[999] w-[80%] 500:w-[60%] h-full  text-gray-300  bg-slate-950 
+      className={` group  flex flex-col items-center 860:hidden cursor-pointer animate-slideleft overflow-y-scroll  shadow-lg shadow-[#1E6120]/50  fixed inset-x-0 bottom-0
+       z-[999] w-[80%] 500:w-[60%] h-full  text-gray-300  bg-green-950 
        pb-5 sm:hidden px-[15px] `}
     >
       <div className="w-full min-h-[60px] flex flex-row items-center  justify-between">
