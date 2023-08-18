@@ -8,7 +8,7 @@ interface Props {
 function Server_card({ data }: Props) {
   return (
     <div className="w-full 840:w-auto h-auto mb-[20px] 840:mb-0 relative  overflow-hidden ">
-      <div className="w-full 840:w-[800px] 1250:w-[390px] h-auto 1250:h-[210px] rounded-[14px] relative  overflow-hidden   backdrop-blur-sm  m-0 840:m-[10px]  border bg-[#0c0728] hover:bg-[#0e082e] border-[#401f788e] p-[13px] ">
+      <div className="w-full 840:w-[800px] 1250:w-[390px] h-auto 1250:h-[210px] rounded-[14px] relative  overflow-hidden   backdrop-blur-sm  m-0 840:m-[10px]  border bg-[#001a00] hover:bg-[#1e2d20] border-[#201E61] p-[13px] ">
         <div
           className={`w-[200px] h-[20px] ${
             data.indevelopment ? "" : " hidden"
