@@ -57,7 +57,7 @@ function More() {
       </div>
       <div
         ref={MenuRef}
-        className={`w-[400px] h-auto rounded-[10px] bg-[#0c0728]  p-[20px] absolute right-[-150px] animate-slideup0  mt-[43px] ${
+        className={`w-[400px] h-auto rounded-[10px] bg-[#001a00]  p-[20px] absolute right-[-150px] animate-slideup0  mt-[43px] ${
           open ? "flex" : " hidden"
         } flex-col   items-center justify-center `}
       >
@@ -68,7 +68,7 @@ function More() {
             width="16"
             height="16"
             fill="currentColor"
-            className="bi bi-triangle-fill text-[#0c0728] "
+            className="bi bi-triangle-fill text-[#001a00] "
             viewBox="0 0 16 16"
           >
             <path
@@ -77,7 +77,7 @@ function More() {
             />
           </svg>
         </div>
-        <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[15px] ">
+        <div className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[15px] ">
           <div className="mr-[10px]">
             <BookOpenIcon className="h-6 w-6 text-sky-500" />
           </div>
@@ -86,13 +86,13 @@ function More() {
               Blog Comming Soon..
             </span>
             <p className=" mt-[5px] text-[14px] text-gray-300 ">
-              Get valuable insights and tips on my blog.
+              Get valuable insights and tips on our blog.
             </p>
           </div>
         </div>
         <Link
           href={"AboutMe"}
-          className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[15px] "
+          className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[15px] "
         >
           <div className="mr-[10px]">
             <NewspaperIcon className="h-6 w-6 text-sky-500" />
@@ -100,14 +100,14 @@ function More() {
           <div className=" flex flex-col">
             <span className=" font-bold text-gray-200 text-[16px] ">About</span>
             <p className=" mt-[5px] text-[14px] text-gray-300 ">
-              Learn more about me, my work, and how I can help you with your
+              Learn more about us, my work, and how we can help you with your
               project.
             </p>
           </div>
         </Link>
         <a
           href="https://www.youtube.com/channel/UCVBLPSX_7Tvm0iEFVMgd5-w"
-          className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[15px] "
+          className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[15px] "
         >
           <div className="mr-[10px]">
             <svg
@@ -126,12 +126,12 @@ function More() {
               YouTube
             </span>
             <p className=" mt-[5px] text-[14px] text-gray-300 ">
-              Subscribe to my YouTube channel dedicated to teaching and sharing
-              my knowledge.
+              Subscribe to our YouTube channel dedicated to teaching and sharing
+              our knowledge.
             </p>
           </div>
         </a>
-        <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[15px] ">
+        <div className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[15px] ">
           <div className="mr-[10px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +154,7 @@ function More() {
             </p>
           </div>
         </div>
-        <div className="w-full h-auto hover:bg-[#221d41] active:scale-95 transition-all duration-100 select-none rounded-[8px] flex flex-row py-[13px] px-[15px] ">
+        <div className="w-full h-auto hover:bg-[#1e2d20] active:scale-95 transition-all duration-100 select-none rounded-[8px] flex flex-row py-[13px] px-[15px] ">
           <div className="mr-[10px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -185,7 +185,7 @@ function More() {
             </div>
           </div>
         </div>
-        <div className="w-full h-auto hover:bg-[#221d41]  select-none rounded-[8px] flex flex-row py-[13px] px-[15px] ">
+        <div className="w-full h-auto hover:bg-[#1e2d20]  select-none rounded-[8px] flex flex-row py-[13px] px-[15px] ">
           <div className="mr-[10px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"

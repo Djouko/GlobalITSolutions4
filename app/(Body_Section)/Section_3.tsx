@@ -14,7 +14,7 @@ function Section_3() {
           className=" text-[40px] 500:text-[45px] font-medium 500:font-semibold text-center  text-gray-200 mb-[10px] "
         >
           Performent{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-white">
             &
           </span>{" "}
           security
@@ -40,7 +40,7 @@ function Section_3() {
         <motion.div
           variants={textVariant(2)}
           id="Wecom-box"
-          className=" px-[15px] py-[4px]  border my-[20px] border-[#7042f88b]  opacity-[0.9]  "
+          className=" px-[15px] py-[4px]  border my-[20px] border-[#70A88B8B]  opacity-[0.9]  "
         >
           <div
             id="Wecom-text"

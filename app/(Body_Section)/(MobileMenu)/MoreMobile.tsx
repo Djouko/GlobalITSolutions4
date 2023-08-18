@@ -34,7 +34,7 @@ function MoreMobile() {
 
   return (
     <div
-      className={`w-full h-auto rounded-[10px] bg-[#0c0728] relative  p-[10px]  animate-slideup0  mt-[23px] flex   flex-col   items-center justify-center `}
+      className={`w-full h-auto rounded-[10px] bg-[#001a00] relative  p-[10px]  animate-slideup0  mt-[23px] flex   flex-col   items-center justify-center `}
     >
       <div className="w-[100px] h-[25px]  top-[-22px]  "></div>
       <div className=" absolute top-[-13px]">
@@ -43,7 +43,7 @@ function MoreMobile() {
           width="16"
           height="16"
           fill="currentColor"
-          className="bi bi-triangle-fill text-[#0c0728] "
+          className="bi bi-triangle-fill text-[#001a00] "
           viewBox="0 0 16 16"
         >
           <path
@@ -52,7 +52,7 @@ function MoreMobile() {
           />
         </svg>
       </div>
-      <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] ">
+      <div className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[5px] ">
         <div className=" flex flex-col">
           <span className=" font-bold text-gray-200 text-[16px] ">
             Blog Comming Soon..
@@ -64,7 +64,7 @@ function MoreMobile() {
       </div>
       <Link
         href={"AboutMe"}
-        className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] "
+        className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[5px] "
       >
         <div className=" flex flex-col">
           <span className=" font-bold text-gray-200 text-[16px] ">About</span>
@@ -76,7 +76,7 @@ function MoreMobile() {
       </Link>
       <a
         href="https://www.youtube.com/channel/UCVBLPSX_7Tvm0iEFVMgd5-w"
-        className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] "
+        className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[5px] "
       >
         <div className=" flex flex-col">
           <span className=" font-bold text-gray-200 text-[16px] ">YouTube</span>
@@ -86,7 +86,7 @@ function MoreMobile() {
           </p>
         </div>
       </a>
-      <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] ">
+      <div className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[5px] ">
         <div className=" flex flex-col">
           <span className=" font-bold text-gray-200 text-[16px] ">
             Community Comming Soon..
@@ -97,7 +97,7 @@ function MoreMobile() {
           </p>
         </div>
       </div>
-      <div className="w-full h-auto hover:bg-[#221d41] active:scale-95 transition-all duration-100 select-none rounded-[8px] flex flex-row py-[13px] px-[5px] ">
+      <div className="w-full h-auto hover:bg-[#1e2d20] active:scale-95 transition-all duration-100 select-none rounded-[8px] flex flex-row py-[13px] px-[5px] ">
         <div
           onClick={() => StarModeStatus()}
           className="w-full h-auto flex flex-col"
@@ -116,7 +116,7 @@ function MoreMobile() {
           </div>
         </div>
       </div>
-      <div className="w-full h-auto hover:bg-[#221d41]  select-none rounded-[8px] flex flex-col  py-[13px] px-[5px] ">
+      <div className="w-full h-auto hover:bg-[#1e2d20]  select-none rounded-[8px] flex flex-col  py-[13px] px-[5px] ">
         <div className={` w-full flex flex-row items-center  justify-start`}>
           <span className=" text-[13px] 310:text-[16px] ">
             Stars colours :{" "}

@@ -9,7 +9,7 @@ function Section_5() {
   return (
     <div className=" w-full 1300:w-[1250px] z-10 h-auto relative m-auto flex flex-col items-center justify-center overflow-hidden  pb-[100px] ">
       <div className=" w-full 840:w-[830px] 1250:w-full h-auto flex flex-col  items-start justify-center my-[15px] px-[15px] 1300:px-[10px] ">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500  font-semibold text-[20px] ">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-white  font-semibold text-[20px] ">
           Projects
         </span>
         <span className=" font-bold text-[30px] text-white ">
@@ -34,8 +34,7 @@ function Section_5() {
         )}
         <div className=" w-full 840:w-[800px] 1250:w-full flex flex-col 1250:flex-row h-auto p-0 1250:p-[10px] animate-slideup ">
           <div
-            className="w-full h-auto rounded-[18px]   backdrop-blur-sm  relative overflow-hidden  border bg-[#0c0728]
-         hover:bg-[#0e082e] border-[#401f788e] p-[13px] mr-0 1250:mr-[20px] mt-[20px] 1250:mt-0  "
+            className="w-full h-auto rounded-[18px]   backdrop-blur-sm  relative overflow-hidden  border bg-[#001a00] hover:bg-[#1e2d20] border-[#201E61] p-[13px] mr-0 1250:mr-[20px] mt-[20px] 1250:mt-0  "
           >
             <Image
               src={"/Frame 1 (1).png"}
@@ -66,8 +65,7 @@ function Section_5() {
             </div>
           </div>
           <div
-            className="w-full h-auto rounded-[18px]   backdrop-blur-sm  relative overflow-hidden  border bg-[#0c0728]
-         hover:bg-[#0e082e] border-[#401f788e] p-[13px] mt-[20px] 1250:mt-0 "
+            className="w-full h-auto rounded-[18px]   backdrop-blur-sm  relative overflow-hidden  border bg-[#001a00] hover:bg-[#1e2d20] border-[#201E61] p-[13px] mr-0 1250:mr-[20px] mt-[20px] 1250:mt-0  "
           >
             <Image
               src={"/Frame 1.png"}

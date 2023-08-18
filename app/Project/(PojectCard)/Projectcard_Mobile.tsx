@@ -14,7 +14,7 @@ function Projectcard_Mobile({ data, index }: Props) {
       href={`/Project/${data.video_key}`}
       className=" w-full 840:w-[800px] 1280:w-full h-auto p-[10px] mx-[0px] 1280:mx-[15px]    animate-slideup    "
     >
-      <div className="w-full h-auto rounded-[14px]   backdrop-blur-sm  relative overflow-hidden  border bg-[#0c0728] hover:bg-[#0e082e] border-[#401f788e] p-[13px] ">
+      <div className="w-full h-auto rounded-[14px]   backdrop-blur-sm  relative overflow-hidden  border bg-[#001a00] hover:bg-[#1e2d20] border-[#201E61] p-[13px] ">
         <div
           className={`w-[200px] h-[20px] ${
             data.indevelopment ? "" : "hidden"
@@ -27,7 +27,7 @@ function Projectcard_Mobile({ data, index }: Props) {
           {data.project_Img_Mobile?.map((data: string) => (
             <div
               key={data}
-              className="border-[2px] px-[5px] py-[6px] border-[#343434] relative group overflow-hidden  bg-black rounded-[25px]"
+              className="border-[2px] px-[5px] py-[6px] border-[#344034] relative group overflow-hidden  bg-black rounded-[25px]"
             >
               <Image
                 src={data}
@@ -43,7 +43,7 @@ function Projectcard_Mobile({ data, index }: Props) {
           {data.project_Img_Mobile?.slice(0, 3)?.map((data: string) => (
             <div
               key={data}
-              className="border-[2px] px-[5px] py-[6px] border-[#343434] relative group overflow-hidden  bg-black rounded-[25px]"
+              className="border-[2px] px-[5px] py-[6px] border-[#344034] relative group overflow-hidden  bg-black rounded-[25px]"
             >
               <Image
                 key={data}
@@ -60,7 +60,7 @@ function Projectcard_Mobile({ data, index }: Props) {
           {data.project_Img_Mobile?.slice(0, 2)?.map((data: string) => (
             <div
               key={data}
-              className="border-[2px] px-[5px] py-[6px] border-[#343434] relative group overflow-hidden  bg-black rounded-[25px]"
+              className="border-[2px] px-[5px] py-[6px] border-[#344034] relative group overflow-hidden  bg-black rounded-[25px]"
             >
               <Image
                 src={data}
@@ -76,7 +76,7 @@ function Projectcard_Mobile({ data, index }: Props) {
           {data.project_Img_Mobile?.slice(0, 1)?.map((data: string) => (
             <div
               key={data}
-              className="border-[2px] px-[5px] py-[6px] border-[#343434] relative group overflow-hidden  bg-black rounded-[25px]"
+              className="border-[2px] px-[5px] py-[6px] border-[#344034] relative group overflow-hidden  bg-black rounded-[25px]"
             >
               <Image
                 key={data}

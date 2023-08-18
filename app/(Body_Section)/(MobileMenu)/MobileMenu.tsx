@@ -16,7 +16,7 @@ function MobileMenu() {
   return (
     <div
       id="scroolbar-hidden"
-      className={` group  flex flex-col items-center 860:hidden cursor-pointer animate-slideleft overflow-y-scroll  shadow-lg shadow-[#2A0E61]/50  fixed inset-x-0 bottom-0
+      className={` group  flex flex-col items-center 860:hidden cursor-pointer animate-slideleft overflow-y-scroll  shadow-lg shadow-[#201E61]/50  fixed inset-x-0 bottom-0
        z-[999] w-[80%] 500:w-[60%] h-full  text-gray-300  bg-slate-950 
        pb-5 sm:hidden px-[15px] `}
     >
@@ -29,9 +29,10 @@ function MobileMenu() {
           <span className=" text-[17px]">Back</span>
         </div>
         <Image
-          src={"/glaxy.png"}
+          src={"/IMG-20230712-WA0019.jpg"}
           width={40}
           height={40}
+          style={{borderRadius: '45%'}}
           alt="GLOBAL IT SOLUTIONS"
           className="  cursor-pointer  hover:animate-slowspin  "
         />
@@ -39,9 +40,9 @@ function MobileMenu() {
       <div
         onClick={() => setcourse(!course)}
         className=" w-full min-h-[50px] rounded-[10px] border
-             hover:border-sky-500  border-[#7042f861] flex flex-row items-center font-semibold justify-center "
+             hover:border-sky-500  border-[#3052A361] flex flex-row items-center font-semibold justify-center "
       >
-        Course
+        Soon
         <ChevronDownIcon className=" w-[20px] h-[20px]  text-gray-200 translate-y-[2px] group-hover:text-[#0000009e] group-hover:text-gray-50 ml-[10px]" />
       </div>
       <div
@@ -56,7 +57,7 @@ function MobileMenu() {
             width="16"
             height="16"
             fill="currentColor"
-            className="bi bi-triangle-fill text-[#0c0728]  "
+            className="bi bi-triangle-fill text-[#001a00]  "
             viewBox="0 0 16 16"
           >
             <path
@@ -65,14 +66,13 @@ function MobileMenu() {
             />
           </svg>
         </div>
-        <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] 600:px-[15px] ">
+        <div className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[5px] 600:px-[15px] ">
           <div className=" flex flex-col">
             <span className=" font-bold text-gray-200 text-[16px] hover:underline ">
-              Next js 13 Course Comming Soon..
+              Healthy Sickler Comming Soon..
             </span>
             <p className=" mt-[5px] text-[14px] text-gray-300 ">
-              An interactive course to learn Next js 13 + Type Script in a fun
-              and easy way
+            An application or platform for assisting drepanocitaires around the world
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ function MobileMenu() {
       <Link
         href={"/Project"}
         className=" w-full min-h-[50px] rounded-[10px] border
-             hover:border-sky-500  border-[#7042f861] mt-[15px] flex flex-row  items-center font-semibold justify-center  "
+             hover:border-sky-500  border-[#3052A361] mt-[15px] flex flex-row  items-center font-semibold justify-center  "
       >
         Project
         <svg
@@ -100,9 +100,9 @@ function MobileMenu() {
       </Link>
       <div
         className=" w-full min-h-[50px] rounded-[10px] border pl-[25px]
-             hover:border-sky-500  border-[#7042f861] mt-[15px] flex flex-row  text-gray-200 items-center font-semibold justify-center "
+             hover:border-sky-500  border-[#3052A361] mt-[15px] flex flex-row  text-gray-200 items-center font-semibold justify-center "
       >
-        Resources
+        Blog
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5 ml-[9px]"
@@ -121,7 +121,7 @@ function MobileMenu() {
       <div
         onClick={() => setMore(!More)}
         className=" w-full min-h-[50px] rounded-[10px] border pr-[5px]
-             hover:border-sky-500  border-[#7042f861] flex flex-row mt-[15px] items-center font-semibold justify-center "
+             hover:border-sky-500  border-[#3052A361] flex flex-row mt-[15px] items-center font-semibold justify-center "
       >
         More
         <ChevronDownIcon className=" w-[20px] h-[20px]  text-gray-200 translate-y-[2px] group-hover:text-[#0000009e] group-hover:text-gray-50 ml-[10px]" />

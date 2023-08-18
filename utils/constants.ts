@@ -1060,12 +1060,12 @@ export const Project: Project_data[] = [
 ];
 
 export const colour: string[] = [
-  "#F59E0B",
-  "#65A30D",
-  "#EA580C",
-  "#C026D3",
-  "#14B8A6",
-  "#E11D48",
+  "#001a00",
+  "#32CD32",
+  "#00FF00",
+  "#7CFC00",
+  "#7FFF00",
+  "#ADFF2F",
 ];
 
 /*

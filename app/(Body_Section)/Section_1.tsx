@@ -38,7 +38,7 @@ function Section_1() {
       colour === null
     ) {
       localStorage.setItem("starMode", "active");
-      localStorage.setItem("colour", "#4d7c0f");
+      localStorage.setItem("colour", "#001a00");
     } else {
       dispatch(setStarMode(havestarMode));
       dispatch(setStarColur(colour));
@@ -46,9 +46,9 @@ function Section_1() {
   }, []);
 
   return (
-    <section className=" w-full h-[940px] shadow-lg shadow-[#030014]/50  relative bg-[url('/main.svg')] bg-cover flex flex-col overflow-hidden  items-center justify-start  px-[15px] ">
+    <section className=" w-full h-[940px] shadow-lg shadow-[#32CD32]/50  relative bg-[url('/main.svg')] bg-cover flex flex-col overflow-hidden  items-center justify-start  px-[15px] ">
       <div className=" w-[1250px]  h-full z-[-10] absolute   top-[-280px]  flex flex-row   items-start justify-center ">
-        <video
+        {/* <video
           className="w-full h-auto  rotate-180  "
           preload="false"
           playsInline
@@ -57,7 +57,7 @@ function Section_1() {
           // @ts-ignore
           autoPlay="autoplay"
           src="/q-c3d7becf.webm"
-        ></video>
+        ></video> */}
       </div>
       <Section_2 />
       {Signup ? <SignupProvider /> : <div></div>}

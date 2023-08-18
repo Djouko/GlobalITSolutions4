@@ -124,7 +124,7 @@ function Footer() {
             </div>
             <div className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer ">
               <a
-                href="mailto:hyatmyat79@gmail.com"
+                href="mailto:destructeurkratos@gmail.com"
                 className=" text-[15px] hover:underline "
               >
                 destructeurkratos@gmail.com

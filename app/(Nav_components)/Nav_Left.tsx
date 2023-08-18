@@ -5,9 +5,10 @@ function Nav_Left() {
   return (
     <Link href={"/"} className="w-auto h-auto flex flex-row items-center">
       <Image
-        src={"/glaxy.png"}
+        src={"/IMG-20230712-WA0019.jpg"}
         width={40}
         height={40}
+        style={{borderRadius: '45%'}}
         alt="GLOBAL IT SOLUTIONS"
         className="  cursor-pointer  hover:animate-slowspin  "
       />

@@ -20,13 +20,13 @@ function Course() {
   return (
     <div className="Nav_text flex flex-row group relative group ">
       <div onClick={() => setopen(true)} className="  flex flex-row">
-        Courses
+      Soon
         <ChevronDownIcon className=" w-[18px] h-[18px]  text-gray-300 translate-y-[2px] group-hover:text-[#0000009e] group-hover:text-gray-50 ml-[10px]" />
       </div>
 
       <div
         ref={MenuRef}
-        className={`w-[400px] h-auto rounded-[10px] bg-[#0c0728]  p-[20px] absolute right-[-150px] animate-slideup  mt-[43px] 
+        className={`w-[400px] h-auto rounded-[10px] bg-[#001a00]  p-[20px] absolute right-[-150px] animate-slideup  mt-[43px] 
        ${open ? "flex" : " hidden"}    flex-row   items-center justify-center `}
       >
         <div className="w-[100px] h-[25px] absolute top-[-22px]"></div>
@@ -36,7 +36,7 @@ function Course() {
             width="16"
             height="16"
             fill="currentColor"
-            className="bi bi-triangle-fill text-[#0c0728] "
+            className="bi bi-triangle-fill text-[#001a00] "
             viewBox="0 0 16 16"
           >
             <path
@@ -45,7 +45,7 @@ function Course() {
             />
           </svg>
         </div>
-        <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[15px] ">
+        <div className="w-full h-auto hover:bg-[#1e2d20] rounded-[8px] flex flex-row py-[13px] px-[15px] ">
           <div className="mr-[10px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,11 +60,10 @@ function Course() {
           </div>
           <div className=" flex flex-col">
             <span className=" font-bold text-gray-200 text-[16px] hover:underline ">
-              Next js 13 Course Comming Soon..
+            Healthy Sickler Comming Soon..
             </span>
             <p className=" mt-[5px] text-[14px] text-gray-300 ">
-              An interactive course to learn Next js 13 + Type Script in a fun
-              and easy way
+            An application or platform for assisting drepanocitaires around the world
             </p>
           </div>
         </div>

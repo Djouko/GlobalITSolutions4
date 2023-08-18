@@ -16,9 +16,9 @@ function Section_2() {
         <motion.div
           variants={textVariant(2)}
           id="Wecom-box"
-          className=" px-[15px] py-[6px]  border border-[#7042f88b]  opacity-[0.9]   "
+          className=" px-[15px] py-[6px]  border border-[#00FF00]  opacity-[0.9]   "
         >
-          <SparklesIcon className=" h-4 370:h-5 w-4 370:w-5  text-[#b49bff] mr-[10px]" />
+          <SparklesIcon className=" h-4 370:h-5 w-4 370:w-5  text-[#7CFC00] mr-[10px]" />
           <div
             id="Wecom-text"
             className=" text-[12px] 310:text-[14px] 370:text-auto"
@@ -29,7 +29,7 @@ function Section_2() {
         <div className="  w-auto h-auto  animate-slideleftT2 mt-[24px] text-white  ">
           <span className=" text-[40px] 400:text-[50px]  800:text-[57px] font-bold align-top ">
             GLOBAL{" "}
-            <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className=" text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-white">
               IT
             </span>{" "}
           </span>
@@ -51,7 +51,7 @@ function Section_2() {
           id="button-primary"
           className=" animate-slideleftT4 px-[20px] py-[7px] text-white  cursor-pointer hover:scale-105 active:scale-90  transition-all   duration-150 select-none rounded-[5px]"
         >
-          Start learing Now!
+          Get to know us better
         </a>
       </div>
       <div className=" w-[50%] h-full hidden 1140:flex flex-row items-center  select-none justify-between ">
